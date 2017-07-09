@@ -1,0 +1,32 @@
+html {
+   height: 100%;
+}
+
+body {
+   background: url(http://www.zastavki.com/pictures/originals/2013/Photoshop_Image_of_the_horse_053857_.jpg) no-repeat center center fixed;
+   background-size: cover;
+   font-family: lato;
+}
+
+.content {
+   text-align: center;
+   padding-top:15%;
+   text-shadow: 0px 4px 3px rgb(0,0,0,0.4),
+                0px 8px 13px rgb(0,0,0,0.1),
+                0px 18px 23px rgb(0,0,0,0.1);
+}
+
+h1, h3 {
+   color: white;
+}
+
+h1 {
+   font-weight: 700;
+   font-size: 5em;
+}
+
+hr {
+   width: 400px;
+   border-top: 1px solid #f8f8f8;
+   border-bottom: 1px solid rgba(0,0,0,0.2);
+}
