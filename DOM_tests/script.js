@@ -12,4 +12,4 @@ setInterval(function() {
       body.style.background = "blue";
    }
    isBlue = !isBlue;
-},1000);
+},1000);ddd
