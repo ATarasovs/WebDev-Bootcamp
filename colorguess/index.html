@@ -2,25 +2,18 @@
   <head>
     <title>Color Guess Game</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
   </head>
   <body>
-    <!-- <div class="container-fluid">
-      <div class="text-center">
-        <div class="row" id="header">
-          <h3>THE GREAT</h3>
-          <h1>RGB(175, 203, 2)</h1>
-          <h3>GUESSING GAME</h3>
-        </div>
-        <div class="row">
-          <div class=col-lg-6>
-            <nav>NEW COLORS</nav>
-          </div>
-          <div class=col-lg-6>
-            <div><span>EASY</span><span id="hard">HARD</span></div>
-          </div>
-        </div> -->
 
-        <h1>The Great RGB Color Game</h1>
+        <h1>The Great <br /><span id ="colorDisplay"></span><br /> Color Game
+        <span id ="colorDisplay"></span></h1>
+        <div id="stripe">
+           <button id="reset">New Colors</button>
+           <span id="message"></span>
+           <button id="easy">Easy</button>
+           <button id="hard" class="selected">Hard</button>
+        </div>
         <div id="container">
           <div class="square"></div>
           <div class="square"></div>
