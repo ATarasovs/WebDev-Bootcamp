@@ -5,22 +5,25 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="robots" content="index,follow" />
-	<link rel="stylesheet" type="text/css" href="assets/css/lib/bootstrap/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/lib/fontawesome/font-awesome.min.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
 	<script src="assets/js/lib/jquery.min.js"></script>
-    <script src="assets/js/script.js"></script>
+   <script src="assets/js/script.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">   
 </head>
 <body>
-    <div id="container">
-        <h1>To-Do List</h1>
-        <input type="text">
-
-        <ul>
-            <li><span>X</span> TO</li>
-            <li><span>X</span> DO</li>
-            <li><span>X</span> LIST</li>
-        </ul>
-    </div>
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-12 center">
+            <h1 class="center">To-Do List</h1>
+            <input type="text" placeholder="New Item" class="form-control" >
+            <ul class="list-group">
+               <li class="todo list-group-item"><span class="remove btn"><button type="button" class="btn btn-danger">X</button></span><span class="item"> TO</span></li>
+               <li class="todo list-group-item"><span class="remove btn">X</span><span class="item"> TO</span></li>
+               <li class="todo list-group-item"><span class="remove btn">X</span><span class="item"> TO</span></li>
+            </ul>
+         </div>
+      </div>
+   </div>
 </body>
 </html>
